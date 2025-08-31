@@ -1,6 +1,4 @@
-// bot-server.js - Hospedado no GitHub
-(function() {
-  'use strict';
+
   
   let activeBots = 0;
   const MAX_BOTS = 30;
@@ -164,4 +162,4 @@
   console.log('Use: stopBots() para parar');
   console.log('Use: getBotStatus() para ver status');
   
-})();
+
